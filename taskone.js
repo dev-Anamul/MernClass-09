@@ -146,8 +146,8 @@ const studentData = JSON.stringify(student);
 console.log(studentData);
 
 /// /// save student data into locale storage
-localStorage.setItem('students', studentData);
+localStorage.setItem('studentsData', studentData);
 
 /// /// get students data from locale storage and parse data into regular array and object
-const parseData = JSON.parse(localStorage.getItem('students'));
+const parseData = JSON.parse(localStorage.getItem('studentsData'));
 console.log(parseData);

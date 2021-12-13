@@ -78,8 +78,8 @@ console.log(developerJsonData);
 
 /// ////// save json data into locale storage
 
-localStorage.setItem('developerData', developerJsonData);
+localStorage.setItem('developersData', developerJsonData);
 
 /// /  get data from locale storage and conver them into regular array and object
-const developerData = JSON.parse(localStorage.getItem('developerData'));
+const developerData = JSON.parse(localStorage.getItem('developersData'));
 console.log(developerData);
